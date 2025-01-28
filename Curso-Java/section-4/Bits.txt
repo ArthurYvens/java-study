@@ -1,0 +1,5 @@
+Um Bit pode armazenar 2 valores possíveis (0 ou 1)
+Cada bit = 2 possibilidades
+
+8 bits:
+2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 ou 2⁸ = 258 possibilidades
