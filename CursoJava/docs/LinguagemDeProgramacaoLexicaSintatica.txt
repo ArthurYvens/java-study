@@ -1,0 +1,13 @@
+Linguagem de programação: Conjunto de regras léxicas e sintáticas para se escrever um programa
+
+	Sintática: se diz a respeito da correção de 	sentenças como um todo. (Gramática)
+
+		O cachorro está doente
+		A cachorro está doente
+
+	Léxica: Se diz a respeito à correção de palavras 	isoladas. (ortografia)
+	
+		cachorro
+		caxorro
+
+

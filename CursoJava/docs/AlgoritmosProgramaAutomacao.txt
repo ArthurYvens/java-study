@@ -1,0 +1,5 @@
+Algoritmo: Sequência de passo a passo para chegar em um determinado objetivo.
+
+Programa de computador: Algoritmo executado pelo computador.
+
+Automação: Quando uma maquina executa um algoritmo para nós.

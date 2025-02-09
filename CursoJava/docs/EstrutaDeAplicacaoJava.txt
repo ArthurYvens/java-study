@@ -1,0 +1,16 @@
+Class -> packages -> module -> aplicação
+
+Packages: Agrupamento lógico de classes relacionadas
+
+Modulo: Agrupamento lógico de packages relacionados
+	
+	Exemplos:
+		Modulo Financeiro
+		Modulo de testes
+		Modulo de Itens
+
+Quando o agrupamento lógico for compilado ele gera o runtime.
+
+	Runtime: Unidade física que pode ser instalada para 	rodar em dispositivos.
+
+Aplicação: Agrupamento de módulos relacionados.
