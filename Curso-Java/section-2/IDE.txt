@@ -1,6 +1,0 @@
-Ambiente integrado de Desenvolvimento
-	Conjunto de softwares utilizado para a construção 	de programas
-Exemplos:
-	c/c++: Code Blocks
-	Java: Eclipse, NetBeans
-	c#: Microsoft Visual Studio
