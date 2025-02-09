@@ -10,7 +10,7 @@ public class Function {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		
-		int higher = max(a,b,c); /// Iniciates the fuction "max" giving the variables (a,b,c)		
+		int higher = max(a,b,c); /// Initiates the function "max" giving the variables (a,b,c)		
 		showResult(higher); /// Function that shows the result of the previous function
 		
 	}
