@@ -1,0 +1,4 @@
+"A program to read the data of a product in stock (name, price, and quantity in stock). Then:
+• Display the product data (name, price, quantity in stock, total value in stock).
+• Add stock and display the product data again.
+• Remove stock and display the product data again."
