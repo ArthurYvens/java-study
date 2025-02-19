@@ -1,0 +1,1 @@
+Create a program to read the data of an employee (name, gross salary, and tax). Then, display all the employee's data, including the tax. Next, increase the employee's salary by a given percentage and display all the updated data again.
