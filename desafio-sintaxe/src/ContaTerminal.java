@@ -2,28 +2,31 @@ import java.util.Scanner;
 
 public class ContaTerminal {
 
-    int numeroDaConta;
-    String nomeCliente, agencia;
-    double saldo;
+        private Scanner sc = new Scanner(System.in);
 
-    Scanner sc = new Scanner(System.in);
-
-    int NumeroDaConta(int numeroDaConta) {
-        numeroDaConta = sc.nextInt("Por favor, digite o número da Agência");
-        return numeroDaConta;
-    }           
-              
-    String NomeCliente(String nomeCliente) {
-        nomeCliente = sc.next("Por favor, digite o nome do Cliente");
-        return nomeCliente;
-    }
-        
-    String Agencia(String agencia) {
-        agencia = sc.next("Por favor, digite o número da Conta");
-        return agencia;
-    }
-    double Saldo(double saldo) {
-        saldo = sc.nextDouble("Por favor, digite o saldo da Conta");
-        return saldo;
+        public int NumeroDaConta() {
+            System.out.print("Por favor, digite o número da Conta: ");
+            int numero = sc.nextInt();
+            sc.nextLine();
+            return numero;
         }
-    }
+
+        public String NomeCliente() {
+            System.out.print("Por favor, digite o nome do Cliente: ");
+            return sc.nextLine();
+        }
+
+        public String Agencia() {
+            System.out.print("Por favor, digite o número da Agência: ");
+            return sc.nextLine();
+        }
+
+        public double Saldo() {
+            System.out.print("Por favor, digite o saldo da Conta: ");
+            return sc.nextDouble();
+        }
+
+        public void close() {
+            sc.close();
+        }
+}
