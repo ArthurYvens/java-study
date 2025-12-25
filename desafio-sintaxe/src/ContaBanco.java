@@ -1,21 +1,18 @@
 import java.util.Scanner;
+import contaBanco;
 
 public class ContaBanco {
     public static void main(String[] args) throws Exception {
 
-        Scanner sc = new Scanner(System.in);
+        ContaTerminal conta = new ContaTerminal();
 
-        int numeroDaConta;
-        String nomeCliente, agencia;
-        double saldo;
-
-        numeroDaConta = sc.nextInt();
-        agencia =sc.next();
-        nomeCliente = sc.next();
-        saldo = sc.nextDouble();
+        int numeroDaConta = conta.NumeroDaConta();
+        String nomeCliente = conta.NomeCliente();
+        String agencia = conta.Agencia();
+        double saldo = conta.Saldo();
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroDaConta + " e seu saldo " + saldo + " já está disponível para saque.");
 
-        sc.close();
+        
 }
 }
